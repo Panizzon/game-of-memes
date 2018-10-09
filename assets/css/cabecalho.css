@@ -1,0 +1,33 @@
+*{margin: 0; padding: 0;}
+header{
+    margin: 0 100px;
+    margin-top: 2px;
+    background-color: black;
+    background-attachment: fixed;
+    background-position: center;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+header > nav > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 75%;
+    list-style: none; 
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding-right: 50px;
+}   
+a:hover{
+    color: white;
+    text-decoration: none;
+    
+}
+a:active{
+    text-decoration: none;
+}
