@@ -1,15 +1,25 @@
 *{margin: 0; padding: 0;}
+
+.centralizacao{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-size: 100px;
+    color: white; 
+    font-family: 'Cinzel', serif;
+    font-size: 130px;
+}
+
 header{
-    margin: 0 100px;
     margin-top: 2px;
     background-color: black;
     background-attachment: fixed;
     background-position: center;
-    height: 50px;
+    height: 40px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    
+    justify-content: space-around;
+    padding-left: 300px;
 }
 header > nav > ul{
     display: flex;
@@ -18,16 +28,16 @@ header > nav > ul{
     padding-right: 75%;
     list-style: none; 
 }
-a{
+.item-menu{
     color: white;
     text-decoration: none;
     padding-right: 50px;
 }   
-a:hover{
+.item-menu:hover{
     color: white;
     text-decoration: none;
     
 }
-a:active{
+.item-menu:active{
     text-decoration: none;
 }

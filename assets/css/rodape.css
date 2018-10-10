@@ -1,12 +1,10 @@
 *{margin: 0; padding: 0;}
 
 .fundo{
-    margin: 0 100px;
-    background-color: rgba(141, 120, 120, 0.3);
+    background-color: black;
     background-attachment: fixed;
     background-position: center;
     text-align: center;
-    height: 30px;
     display: flex;
     flex-direction: column;
     margin-top: 40px;
