@@ -4,7 +4,6 @@
     display: flex;
     justify-content: center;
     background-color: black;
-    font-size: 100px;
     color: white; 
     font-family: 'Cinzel', serif;
     font-size: 130px;
@@ -19,13 +18,12 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding-left: 300px;
+    
 }
 header > nav > ul{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding-right: 75%;
+    justify-content: center;
     list-style: none; 
 }
 .item-menu{

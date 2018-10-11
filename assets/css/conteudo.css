@@ -2,10 +2,6 @@
 
 body{
     background-image: linear-gradient(to right top, #606060, #484848, #313131, #1c1c1c, #000000);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    background-attachment: fixed;
 }
 
 .container{
@@ -25,46 +21,61 @@ body{
     font-family: 'Cinzel', serif;
 }
 
-.meme .conteudo{
-    display: flex;
-    justify-content: center;
-}
-
 .imagem img{
+    padding-left: 70px;
     width: 80%;
     padding-top: 10px;
+    justify-content: center;
 }
 
 .texto{
     margin-top: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     font-family: 'Roboto', sans-serif;
     color: black;
+    text-align: center;
+    padding-bottom: 15px;
     
-}
-
-.botao{
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    font-family: 'Roboto', sans-serif;
-    color: black;
-    padding-right: 10px;
-    text-decoration: none;
-    border-left: 8px;
-}
-
-.botao:active{
-    text-decoration: none;
-}
-
-.botao:hover{
-    color: #313131;
 }
 
 .demais-paginas{
     text-align: center;
+    background-color: black;
+    background-attachment: fixed;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    text-decoration: none;
+}
+
+.lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+
+.item-mais{
+    color: white;
+    text-decoration: none; 
+}   
+.item-mais:hover{
+    color: white;
+    text-decoration: none;
+    
+}
+.item-mais:active{
+    text-decoration: none;
+}
+
+.dono{
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 15px;
+
 }

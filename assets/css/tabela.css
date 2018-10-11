@@ -1,0 +1,26 @@
+*{margin: 0; padding: 0;}
+
+.tabela{
+    border: none; 
+    width: 100%;
+    margin: 0 auto;  
+    background-color: white;      
+}
+.tabela th, .tabela td{
+    border:1px #000 solid;
+    padding:10px;
+}
+.tabela th{
+    background-color: black;
+    color: white;
+}
+.tabela td{
+    text-align: center;
+}
+.tabela td:nth-child(2){
+    text-align: left;
+}
+.tabela tr:nth-child(odd){
+    background-color: black;
+    color: white;
+}

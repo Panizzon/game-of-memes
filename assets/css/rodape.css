@@ -2,8 +2,6 @@
 
 .fundo{
     background-color: black;
-    background-attachment: fixed;
-    background-position: center;
     text-align: center;
     display: flex;
     flex-direction: column;

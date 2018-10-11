@@ -1,0 +1,12 @@
+*{margin: 0; padding: 0;}
+
+.item-form{
+    background-color: white;
+    border-radius: 3px;
+    padding: 20px;
+    font-family: 'Cinzel', serif;
+}
+
+.espaco-form{
+    padding-bottom: 5px;
+}
