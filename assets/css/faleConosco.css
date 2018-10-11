@@ -1,12 +1,29 @@
 *{margin: 0; padding: 0;}
 
 .item-form{
-    background-color: white;
+    background-color: black;
     border-radius: 3px;
     padding: 20px;
     font-family: 'Cinzel', serif;
+
 }
 
 .espaco-form{
     padding-bottom: 5px;
+    color: white;
+    
+}
+
+.botao{
+    text-align: center;
+    color: white;
+}
+  
+.botao:hover{
+    color: white;
+    text-decoration: none;
+    
+}
+.botao:active{
+    text-decoration: none;
 }

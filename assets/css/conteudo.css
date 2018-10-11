@@ -19,6 +19,7 @@ body{
     background-color: black;
     color: white;
     font-family: 'Cinzel', serif;
+    padding-left: 5px;
 }
 
 .imagem img{
@@ -46,7 +47,7 @@ body{
     background-attachment: fixed;
     height: 40px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
     color: white;
     text-decoration: none;
@@ -61,8 +62,11 @@ body{
 }
 
 .item-mais{
+    padding-left: 8px;
     color: white;
     text-decoration: none; 
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
 }   
 .item-mais:hover{
     color: white;
@@ -72,10 +76,17 @@ body{
 .item-mais:active{
     text-decoration: none;
 }
-
+.texto-espaco{
+    padding-bottom: 20px; 
+}
 .dono{
     text-align: right;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-right: 15px;
-
+    border-style: solid;
+    border-color: black;
+    border-bottom: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    
 }
