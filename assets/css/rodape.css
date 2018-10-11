@@ -3,8 +3,7 @@
 .fundo{
     background-color: black;
     text-align: center;
-    display: flex;
-    flex-direction: column;
+    
     margin-top: 40px;
     color: white;
 }
